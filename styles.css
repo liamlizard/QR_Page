@@ -1,0 +1,37 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body, html {
+    background-color: #B0C4D0;
+    overflow: hidden;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+
+    align-items: center;
+    width: 200px;
+    height: 400px;
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 40px;
+    background-color: white; 
+}
+
+.text-container{
+    margin-top: auto;
+}
+
+.img-container {
+    align-items: center;
+}
+
+.img-container img {
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    margin-bottom: auto;
+}
+
