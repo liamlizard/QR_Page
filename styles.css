@@ -2,8 +2,12 @@
 .attribution a { color: hsl(228, 45%, 44%); }
 
 body, html {
-    background-color: #B0C4D0;
-    overflow: hidden;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
 }
 
 .main-container {
@@ -17,14 +21,17 @@ body, html {
     margin: auto;
     border: 1px solid #ccc;
     padding: 40px;
-    background-color: white; 
+    background-color: hsl(0, 0%, 100%); 
 }
 
 .text-container{
     margin-top: auto;
+    text-align: center;
+    font-family: "Outfit";
 }
 
 .img-container {
+    padding: 0px;
     align-items: center;
 }
 
@@ -35,3 +42,12 @@ body, html {
     margin-bottom: auto;
 }
 
+b {
+    font-weight: 700px;
+}
+
+p {
+    font-weight: 400px;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
